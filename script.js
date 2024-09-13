@@ -5,7 +5,7 @@ function stringChop(str, size) {
 	}
 	let chunks = [];
 	for(let i=0; i<str.length; i=i+size) {
-		let subStr = slice(i, i+slice);
+		let subStr = slice(i, i+size);
 		chunks.push(substr);
 	}
 	return chunks;
